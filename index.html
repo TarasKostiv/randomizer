@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Randomizer</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <section class="block" id="block-1" role="form">
+      <form class="block__form">
+        <label for="add-person-input">Add person</label>
+        <input class="block__input" type="text" name="add-person" id="add-person-input">
+        <ul class="block__list">
+          <li class="block__list-elem"></li>
+        </ul>
+
+        <button type="submit">Get result</button>
+      </form>
+    </section>
+    <section class="block" id="block-2" role="form">
+      <form action="" class="block__form">
+        <label for="is-big-letters-input">Big letters: </label>
+        <input type="checkbox" name="is-big-letters" id="is-big-letters-input" class="block__input-check">
+        <label for="is-small-letters-input">Small letters: </label>
+        <input type="checkbox" name="is-small-letters" id="is-small-letters-input" class="block__input-check">
+        <label for="is-number-input">Number: </label>
+        <input type="checkbox" name="is-number" id="is-number-input" class="block__input-check">
+
+        <label for="result-input">Result</label>
+        <input type="text" name="result" id="result-input" class="block__input">
+
+        <button type="submit">Get result</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
